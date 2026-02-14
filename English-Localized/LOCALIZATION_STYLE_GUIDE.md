@@ -110,7 +110,7 @@ Common examples we’ve been applying:
 Mini glossary (common normalizations):
 
 - `Crimson Magic Clan` / `Crimson Magic Clansmen` → `Crimson Demons`
-- `Crimson Demon Village` (preferred as the place name; avoid alternating with “Crimson Demon clan village” unless the sentence truly calls for it)
+- `Crimson Demon Village` (preferred as the place name; avoid alternating with “Crimson Demon Clan village” unless the sentence truly calls for it)
 - `Demon King` (title case when it’s the title/role; keep lower-case when it’s clearly generic)
 - `Giant Frog` -> `Giant Toad` (In western KonoSuba media, the creatures known as Giant Frogs have been changed to Giant Toads instead) (This also applies to their meat, e.g. `frog meat` -> `toad meat`)
 - `Axis Church` / `Eris Church` (title case for the organization name)
