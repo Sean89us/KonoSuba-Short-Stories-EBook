@@ -28,10 +28,10 @@ jobs:
           python-version: "3.11"
 
       - name: Build English-Localized EPUB
-        run: python tools/package_epub.py --src English-Localized --out dist/English-Localized.epub
+        run: python tools/package_epub.py --src English-Localized --out "dist/KonoSuba-Short-Stories-Collection-English-Localization.epub"
 
       - name: Build Unchanged-Translations EPUB
-        run: python tools/package_epub.py --src Unchanged-Translations --out dist/Unchanged-Translations.epub
+        run: python tools/package_epub.py --src Unchanged-Translations --out "dist/KonoSuba-Short-Stories-Collection.epub"
 
       - name: Determine release tag
         id: tag
@@ -52,5 +52,5 @@ jobs:
         with:
           tag_name: ${{ steps.tag.outputs.tag }}
           files: |
-            dist/English-Localized.epub
-            dist/Unchanged-Translations.epub
+            dist/KonoSuba-Short-Stories-Collection-English-Localization.epub
+            dist/KonoSuba-Short-Stories-Collection.epub

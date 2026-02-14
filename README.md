@@ -2,6 +2,8 @@
 
 This repository contains source files and build tooling used to collect **KonoSuba** short stories into a single, consistent, easy-to-read EPUB.
 
+If you're just here for the eBook, head on over to the [releases page](https://github.com/Sean89us/KonoSuba-Short-Stories-EBook/releases) to download.
+
 It is organized into two parallel tracks:
 
 - `Unchanged-Translations/`: Story files kept as close as possible to their baseline wording, with only mechanical/formatting cleanup to ensure consistent XHTML/EPUB structure.
@@ -15,6 +17,8 @@ Both tracks contain:
 The `tools/` folder contains Python scripts that help scan, normalize, regenerate navigation/packaging files, and package the final EPUB.
 
 ## Releases
+
+Download copies of the published epub files over on the [releases page](https://github.com/Sean89us/KonoSuba-Short-Stories-EBook/releases).
 
 Releases should be cut when tags are pushed. This should generate the epub files and attach them to the release.
 
