@@ -133,6 +133,22 @@ Notes:
 - Apply in story prose/dialogue (and headings/titles if applicable), but **do not** rename filenames/links.
 - Prefer consistency across the entire `English-Localized/EPUB` set once a spelling is chosen.
 
+### 3.36) Name Order (JP → EN)
+
+In Japanese text (and many direct translations), personal names often appear in **family-name first** order. For English localization, flip to **given-name first** order in narrative prose and dialogue.
+
+Examples:
+
+- `Satou Kazuma` → `Kazuma Satou`
+- `Dustiness Ford Lalatina` → `Lalatina Ford Dustiness`
+
+Guidelines:
+
+- Apply this when the text is clearly presenting a full personal name in JP order.
+- Preserve middle/house components; just move the given name to the front.
+- Don’t change names that are already in natural English order, single-name characters, or established English-canon renderings.
+- As with spelling normalization: update prose/dialogue/headings as needed, but **do not** rename filenames/links.
+
 ### 3.5) Vanir “Moi/moi” References
 
 Some translations render Vanir’s self-reference as `Moi` / `moi`. This can be ambiguous: sometimes it’s effectively a **first-person pronoun**, and sometimes it’s used to **name/identify Vanir**.
