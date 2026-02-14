@@ -48,7 +48,7 @@
     </navPoint>
     <navPoint id="thecrimsonmagicclansmenhavehighintelligence" playOrder="7">
       <navLabel>
-        <text>The Crimson Magic Clan Members Are Highly Intelligent</text>
+        <text>The Crimson Demons Are Highly Intelligent</text>
       </navLabel>
       <content src="thecrimsonmagicclansmenhavehighintelligence.xhtml"/>
     </navPoint>
