@@ -16,6 +16,26 @@ Both tracks contain:
 
 The `tools/` folder contains Python scripts that help scan, normalize, regenerate navigation/packaging files, and package the final EPUB.
 
+## Credit where credit is due
+
+This project would not have been possible without the work of the original author, Natsume Akatsuki, or the work of the fine translators and editors who painstakingly procured and translated these stories. Thank you all so much for your herculean efforts!
+
+Translations by: Cannongerbil, yuNS, Skythewood, Ulti, Uranophane, Shaoqi
+
+Edited by: Cannongerbil, yuNS, Skythewood, Ulti, Xenthur, Keel the swift, Deus ex Machina, Adam, BlitzBlast, Frozen, Striker, Ruzenor
+
+Find these stories and more on the translators' websites at:
+      
+- Cannongerbil: [cgtranslations.me](https://cgtranslations.me)
+- yuNS: [crimsonmagic.me](https://crimsonmagic.me)
+
+Join the conversation and chat with other KonoSuba fans over on Discord:
+
+- [CGTranslations](https://discord.gg/5mKnGqd)
+- [yuNS Translations](https://discord.gg/h3kZtPT)
+
+If you want to chat with me directly, you can find me on Discord [@sean92us](https://discord.com/users/sean92us)
+
 ## Releases
 
 Download copies of the published epub files over on the [releases page](https://github.com/Sean89us/KonoSuba-Short-Stories-EBook/releases).
