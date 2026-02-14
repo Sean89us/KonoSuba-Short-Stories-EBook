@@ -1,0 +1,500 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+  <head>
+    <meta name="dtb:uid" content="konosuba-short-stories"/>
+    <meta name="dtb:depth" content="1"/>
+    <meta name="dtb:totalPageCount" content="0"/>
+    <meta name="dtb:maxPageNumber" content="0"/>
+  </head>
+  <docTitle>
+    <text>KonoSuba - Short Stories Collection</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="copyright" playOrder="1">
+      <navLabel>
+        <text>Copyright information</text>
+      </navLabel>
+      <content src="copyright.xhtml"/>
+    </navPoint>
+    <navPoint id="translators" playOrder="2">
+      <navLabel>
+        <text>Translator Credits</text>
+      </navLabel>
+      <content src="translators.xhtml"/>
+    </navPoint>
+    <navPoint id="aquasensei" playOrder="3">
+      <navLabel>
+        <text>Aqua-sensei</text>
+      </navLabel>
+      <content src="aquasensei.xhtml"/>
+    </navPoint>
+    <navPoint id="meguminthedragonslayer" playOrder="4">
+      <navLabel>
+        <text>Megumin the Dragon Slayer</text>
+      </navLabel>
+      <content src="meguminthedragonslayer.xhtml"/>
+    </navPoint>
+    <navPoint id="aquaswatertrade" playOrder="5">
+      <navLabel>
+        <text>Aqua’s Water Trade</text>
+      </navLabel>
+      <content src="aquaswatertrade.xhtml"/>
+    </navPoint>
+    <navPoint id="darknessspetsearch" playOrder="6">
+      <navLabel>
+        <text>Darkness’ Pet Search</text>
+      </navLabel>
+      <content src="darknessspetsearch.xhtml"/>
+    </navPoint>
+    <navPoint id="thecrimsonmagicclansmenhavehighintelligence" playOrder="7">
+      <navLabel>
+        <text>The Crimson Magic Clansmen have High Intelligence</text>
+      </navLabel>
+      <content src="thecrimsonmagicclansmenhavehighintelligence.xhtml"/>
+    </navPoint>
+    <navPoint id="megumintheripper" playOrder="8">
+      <navLabel>
+        <text>Megumin The Ripper</text>
+      </navLabel>
+      <content src="megumintheripper.xhtml"/>
+    </navPoint>
+    <navPoint id="crusaderofthesleepingforest" playOrder="9">
+      <navLabel>
+        <text>Crusader of the Sleeping Forest</text>
+      </navLabel>
+      <content src="crusaderofthesleepingforest.xhtml"/>
+    </navPoint>
+    <navPoint id="explosionisart" playOrder="10">
+      <navLabel>
+        <text>Explosion Is Art</text>
+      </navLabel>
+      <content src="explosionisart.xhtml"/>
+    </navPoint>
+    <navPoint id="aonceinawhilegoddesslikeactivity" playOrder="11">
+      <navLabel>
+        <text>A Once in a While Goddess-Like Activity</text>
+      </navLabel>
+      <content src="aonceinawhilegoddesslikeactivity.xhtml"/>
+    </navPoint>
+    <navPoint id="theundeadrulerofthehoodassociation" playOrder="12">
+      <navLabel>
+        <text>The Undead Ruler of the Neighborhood Association</text>
+      </navLabel>
+      <content src="theundeadrulerofthehoodassociation.xhtml"/>
+    </navPoint>
+    <navPoint id="crimsoneyedrookiekiller" playOrder="13">
+      <navLabel>
+        <text>Crimson-Eyed Rookie Killer</text>
+      </navLabel>
+      <content src="crimsoneyedrookiekiller.xhtml"/>
+    </navPoint>
+    <navPoint id="aonceinawhileexplosivedate" playOrder="14">
+      <navLabel>
+        <text>A once in a while explosive date</text>
+      </navLabel>
+      <content src="aonceinawhileexplosivedate.xhtml"/>
+    </navPoint>
+    <navPoint id="takingmyfirststeponpathtoexplosions" playOrder="15">
+      <navLabel>
+        <text>Bakuen Manga Short Story: Taking My First Step on the Path to Explosions</text>
+      </navLabel>
+      <content src="takingmyfirststeponpathtoexplosions.xhtml"/>
+    </navPoint>
+    <navPoint id="komekkosugardaddy" playOrder="16">
+      <navLabel>
+        <text>Bakuen 1 Short Story: Komekko’s Sugar Daddy</text>
+      </navLabel>
+      <content src="komekkosugardaddy.xhtml"/>
+    </navPoint>
+    <navPoint id="howtospendalonelyholiday" playOrder="17">
+      <navLabel>
+        <text>Bakuen 1 Short Story: How to Spend a Lonely Holiday</text>
+      </navLabel>
+      <content src="howtospendalonelyholiday.xhtml"/>
+    </navPoint>
+    <navPoint id="thehighlyrespectedcrimsondemons" playOrder="18">
+      <navLabel>
+        <text>Bakuen 3 Toranora Short Story: The Highly Respected Crimson Demons</text>
+      </navLabel>
+      <content src="thehighlyrespectedcrimsondemons.xhtml"/>
+    </navPoint>
+    <navPoint id="dearoneechan" playOrder="19">
+      <navLabel>
+        <text>Bakuen 3 Gamers Short Story: Dear Onee-chan</text>
+      </navLabel>
+      <content src="dearoneechan.xhtml"/>
+    </navPoint>
+    <navPoint id="observingaqua" playOrder="20">
+      <navLabel>
+        <text>Dust Spinoff Short Story 1: Observing Aqua</text>
+      </navLabel>
+      <content src="observingaqua.xhtml"/>
+    </navPoint>
+    <navPoint id="observingmegumin" playOrder="21">
+      <navLabel>
+        <text>Dust Spinoff Short Story 2: Observing Megumin</text>
+      </navLabel>
+      <content src="observingmegumin.xhtml"/>
+    </navPoint>
+    <navPoint id="observingdarkness" playOrder="22">
+      <navLabel>
+        <text>Dust Spinoff Short Story 3: Observing Darkness</text>
+      </navLabel>
+      <content src="observingdarkness.xhtml"/>
+    </navPoint>
+    <navPoint id="thedevilandtheforbiddenbook" playOrder="23">
+      <navLabel>
+        <text>The Devil And The Forbidden Book</text>
+      </navLabel>
+      <content src="thedevilandtheforbiddenbook.xhtml"/>
+    </navPoint>
+    <navPoint id="makeashowofgratitudeeverynowandthen" playOrder="24">
+      <navLabel>
+        <text>Make a show of gratitude every now and then!</text>
+      </navLabel>
+      <content src="makeashowofgratitudeeverynowandthen.xhtml"/>
+    </navPoint>
+    <navPoint id="torealizeamansromance" playOrder="25">
+      <navLabel>
+        <text>To Realize a Man’s Romance!</text>
+      </navLabel>
+      <content src="torealizeamansromance.xhtml"/>
+    </navPoint>
+    <navPoint id="vs" playOrder="26">
+      <navLabel>
+        <text>VS!</text>
+      </navLabel>
+      <content src="vs.xhtml"/>
+    </navPoint>
+    <navPoint id="taylorssecret" playOrder="27">
+      <navLabel>
+        <text>Dust Spinoff 2 Short Story: Taylor’s secret</text>
+      </navLabel>
+      <content src="taylorssecret.xhtml"/>
+    </navPoint>
+    <navPoint id="acertainchicksspecialmove" playOrder="28">
+      <navLabel>
+        <text>A certain chick’s special move!</text>
+      </navLabel>
+      <content src="acertainchicksspecialmove.xhtml"/>
+    </navPoint>
+    <navPoint id="anoccasionalclichestory" playOrder="29">
+      <navLabel>
+        <text>An Occasional Cliché Story</text>
+      </navLabel>
+      <content src="anoccasionalclichestory.xhtml"/>
+    </navPoint>
+    <navPoint id="thepowerofthecrimsondemons" playOrder="30">
+      <navLabel>
+        <text>The power of the Crimson Demons</text>
+      </navLabel>
+      <content src="thepowerofthecrimsondemons.xhtml"/>
+    </navPoint>
+    <navPoint id="aseriousday" playOrder="31">
+      <navLabel>
+        <text>Dust Spinoff 3 Short Story: A Serious day</text>
+      </navLabel>
+      <content src="aseriousday.xhtml"/>
+    </navPoint>
+    <navPoint id="thegoddessworkinghard" playOrder="32">
+      <navLabel>
+        <text>The Goddess, Working Hard.</text>
+      </navLabel>
+      <content src="thegoddessworkinghard.xhtml"/>
+    </navPoint>
+    <navPoint id="regardingtheprincessadolescence" playOrder="33">
+      <navLabel>
+        <text>Regarding the Princess’ Adolescence</text>
+      </navLabel>
+      <content src="regardingtheprincessadolescence.xhtml"/>
+    </navPoint>
+    <navPoint id="axelsnumberone" playOrder="34">
+      <navLabel>
+        <text>Axel’s Number One…</text>
+      </navLabel>
+      <content src="axelsnumberone.xhtml"/>
+    </navPoint>
+    <navPoint id="hauntedhouse" playOrder="35">
+      <navLabel>
+        <text>Dust Spinoff 4 Short Story 1: Haunted House</text>
+      </navLabel>
+      <content src="hauntedhouse.xhtml"/>
+    </navPoint>
+    <navPoint id="suchawaste" playOrder="36">
+      <navLabel>
+        <text>Dust Spinoff 4 Short Story 2: Such A Waste</text>
+      </navLabel>
+      <content src="suchawaste.xhtml"/>
+    </navPoint>
+    <navPoint id="thehardworkingthiefgirl" playOrder="37">
+      <navLabel>
+        <text>Continued Explosions Short Story: The Hardworking Thief Girl!</text>
+      </navLabel>
+      <content src="thehardworkingthiefgirl.xhtml"/>
+    </navPoint>
+    <navPoint id="themilitantprincesspeacekeepingactivities" playOrder="38">
+      <navLabel>
+        <text>Continued Explosions Short Story: The Militant Princess’ Peacekeeping Activities</text>
+      </navLabel>
+      <content src="themilitantprincesspeacekeepingactivities.xhtml"/>
+    </navPoint>
+    <navPoint id="thevalueofayounggirlis" playOrder="39">
+      <navLabel>
+        <text>Continued Explosions Short Story: The Value of a Young Girl is…</text>
+      </navLabel>
+      <content src="thevalueofayounggirlis.xhtml"/>
+    </navPoint>
+    <navPoint id="foririssamassake" playOrder="40">
+      <navLabel>
+        <text>For Iris-sama’s sake</text>
+      </navLabel>
+      <content src="foririssamassake.xhtml"/>
+    </navPoint>
+    <navPoint id="thestrongestskill" playOrder="41">
+      <navLabel>
+        <text>The Strongest Skill…</text>
+      </navLabel>
+      <content src="thestrongestskill.xhtml"/>
+    </navPoint>
+    <navPoint id="regardingthedangersofthatskill" playOrder="42">
+      <navLabel>
+        <text>Regarding the dangers of that skill.</text>
+      </navLabel>
+      <content src="regardingthedangersofthatskill.xhtml"/>
+    </navPoint>
+    <navPoint id="thelegendarywitch" playOrder="43">
+      <navLabel>
+        <text>The Legendary Witch</text>
+      </navLabel>
+      <content src="thelegendarywitch.xhtml"/>
+    </navPoint>
+    <navPoint id="thetrueaspectofviolence" playOrder="44">
+      <navLabel>
+        <text>The True Aspect of Violence</text>
+      </navLabel>
+      <content src="thetrueaspectofviolence.xhtml"/>
+    </navPoint>
+    <navPoint id="onacertainmidsummersnight" playOrder="45">
+      <navLabel>
+        <text>On a certain Midsummer’s night</text>
+      </navLabel>
+      <content src="onacertainmidsummersnight.xhtml"/>
+    </navPoint>
+    <navPoint id="theunbelievablyluckysilverhairedthief" playOrder="46">
+      <navLabel>
+        <text>The unbelievably lucky silver haired thief</text>
+      </navLabel>
+      <content src="theunbelievablyluckysilverhairedthief.xhtml"/>
+    </navPoint>
+    <navPoint id="arealmagicitem" playOrder="47">
+      <navLabel>
+        <text>A Real magic item!</text>
+      </navLabel>
+      <content src="arealmagicitem.xhtml"/>
+    </navPoint>
+    <navPoint id="thewintermoonis" playOrder="48">
+      <navLabel>
+        <text>The winter moon is…</text>
+      </navLabel>
+      <content src="thewintermoonis.xhtml"/>
+    </navPoint>
+    <navPoint id="thelappillowofthefalseshopkeeper" playOrder="49">
+      <navLabel>
+        <text>The Lap pillow of the false Shopkeeper</text>
+      </navLabel>
+      <content src="thelappillowofthefalseshopkeeper.xhtml"/>
+    </navPoint>
+    <navPoint id="theinnocentlaughofaseedling" playOrder="50">
+      <navLabel>
+        <text>The Innocent Laugh of a Seedling</text>
+      </navLabel>
+      <content src="theinnocentlaughofaseedling.xhtml"/>
+    </navPoint>
+    <navPoint id="thestrongestdevilsummonerofthecrimsondemons" playOrder="51">
+      <navLabel>
+        <text>The Strongest Devil Summoner of the Crimson Demons</text>
+      </navLabel>
+      <content src="thestrongestdevilsummonerofthecrimsondemons.xhtml"/>
+    </navPoint>
+    <navPoint id="theonewithazurelightningbehindher" playOrder="52">
+      <navLabel>
+        <text>The One with Azure Lightning Behind her</text>
+      </navLabel>
+      <content src="theonewithazurelightningbehindher.xhtml"/>
+    </navPoint>
+    <navPoint id="workingattthesuccubusshop" playOrder="53">
+      <navLabel>
+        <text>Dust Spinoff 5 Short Story 1: Working at the Succubus Shop</text>
+      </navLabel>
+      <content src="workingattthesuccubusshop.xhtml"/>
+    </navPoint>
+    <navPoint id="workingattthemagicitemshop" playOrder="54">
+      <navLabel>
+        <text>Dust Spinoff 5 Short Story 2: Working at the Magic Item Shop</text>
+      </navLabel>
+      <content src="workingattthemagicitemshop.xhtml"/>
+    </navPoint>
+    <navPoint id="noblestyle" playOrder="55">
+      <navLabel>
+        <text>Noble Style</text>
+      </navLabel>
+      <content src="noblestyle.xhtml"/>
+    </navPoint>
+    <navPoint id="thebasicequipmenttotakedownademonking" playOrder="56">
+      <navLabel>
+        <text>The Basic Equipment to take down a Demon King</text>
+      </navLabel>
+      <content src="thebasicequipmenttotakedownademonking.xhtml"/>
+    </navPoint>
+    <navPoint id="aheartfeltgift" playOrder="57">
+      <navLabel>
+        <text>A Heartfelt Gift</text>
+      </navLabel>
+      <content src="aheartfeltgift.xhtml"/>
+    </navPoint>
+    <navPoint id="thefamousgoddessofaxel" playOrder="58">
+      <navLabel>
+        <text>The Famous Goddess of Axel</text>
+      </navLabel>
+      <content src="thefamousgoddessofaxel.xhtml"/>
+    </navPoint>
+    <navPoint id="whenthatgoddessreturns" playOrder="59">
+      <navLabel>
+        <text>When That Goddess Returns…</text>
+      </navLabel>
+      <content src="whenthatgoddessreturns.xhtml"/>
+    </navPoint>
+    <navPoint id="todayiwinagain" playOrder="60">
+      <navLabel>
+        <text>Today, I Win Again!</text>
+      </navLabel>
+      <content src="todayiwinagain.xhtml"/>
+    </navPoint>
+    <navPoint id="anightoutwiththewrongcrowd" playOrder="61">
+      <navLabel>
+        <text>A Night Out with the Wrong Crowd</text>
+      </navLabel>
+      <content src="anightoutwiththewrongcrowd.xhtml"/>
+    </navPoint>
+    <navPoint id="thesameoldtownofaxel" playOrder="62">
+      <navLabel>
+        <text>The Same Old Town of Axel</text>
+      </navLabel>
+      <content src="thesameoldtownofaxel.xhtml"/>
+    </navPoint>
+    <navPoint id="thedivinehandoftheotherworld" playOrder="63">
+      <navLabel>
+        <text>Konosuba Nichijou Manga Short Story 1: The Divine Hand Of The Other World</text>
+      </navLabel>
+      <content src="thedivinehandoftheotherworld.xhtml"/>
+    </navPoint>
+    <navPoint id="mynameis" playOrder="64">
+      <navLabel>
+        <text>Konosuba Artbook Cheers Short Story: My Name Is-</text>
+      </navLabel>
+      <content src="mynameis.xhtml"/>
+    </navPoint>
+    <navPoint id="todayasaharemconsultant" playOrder="65">
+      <navLabel>
+        <text>Consulting with this Masked Devil! - Today As A Harem Consultant</text>
+      </navLabel>
+      <content src="todayasaharemconsultant.xhtml"/>
+    </navPoint>
+    <navPoint id="todayasaloveconsultant" playOrder="66">
+      <navLabel>
+        <text>Consulting with this Masked Devil! - Today as a Love Consultant</text>
+      </navLabel>
+      <content src="todayasaloveconsultant.xhtml"/>
+    </navPoint>
+    <navPoint id="ameetingwithawhitetiger" playOrder="67">
+      <navLabel>
+        <text>Blu-Ray Short Story 1: A Meeting With A White Tiger</text>
+      </navLabel>
+      <content src="ameetingwithawhitetiger.xhtml"/>
+    </navPoint>
+    <navPoint id="theexplosivedetectiveofaxel" playOrder="68">
+      <navLabel>
+        <text>Blu-Ray Short Story 2: The Explosive Detective of Axel</text>
+      </navLabel>
+      <content src="theexplosivedetectiveofaxel.xhtml"/>
+    </navPoint>
+    <navPoint id="explosivecrimsonstream" playOrder="69">
+      <navLabel>
+        <text>Blu-Ray Short Story 3: Explosive Crimson Stream</text>
+      </navLabel>
+      <content src="explosivecrimsonstream.xhtml"/>
+    </navPoint>
+    <navPoint id="bewareofknockoffs" playOrder="70">
+      <navLabel>
+        <text>Blu-Ray Short Story 4: Beware Of Knockoffs</text>
+      </navLabel>
+      <content src="bewareofknockoffs.xhtml"/>
+    </navPoint>
+    <navPoint id="thespringsceneryofthisotherworld" playOrder="71">
+      <navLabel>
+        <text>Sneaker Bunko 30th anniversary event short story: The Spring Scenery of this Other World</text>
+      </navLabel>
+      <content src="thespringsceneryofthisotherworld.xhtml"/>
+    </navPoint>
+    <navPoint id="popularitypollaqua" playOrder="72">
+      <navLabel>
+        <text>Popularity Poll Short Story 1: Aqua Short Story - Rain for this Withered Land!</text>
+      </navLabel>
+      <content src="popularitypollaqua.xhtml"/>
+    </navPoint>
+    <navPoint id="popularitypollmegumin" playOrder="73">
+      <navLabel>
+        <text>Popularity Poll Short Story 2: Megumin Short Story - The Two Mages</text>
+      </navLabel>
+      <content src="popularitypollmegumin.xhtml"/>
+    </navPoint>
+    <navPoint id="popularitypolldarkness" playOrder="74">
+      <navLabel>
+        <text>Popularity Poll Short Story 3: Darkness Short Story - Amical Concern</text>
+      </navLabel>
+      <content src="popularitypolldarkness.xhtml"/>
+    </navPoint>
+    <navPoint id="untitledaquashortstory" playOrder="75">
+      <navLabel>
+        <text>Natsume’s blog: Untitled Aqua Short Story</text>
+      </navLabel>
+      <content src="untitledaquashortstory.xhtml"/>
+    </navPoint>
+    <navPoint id="untitledmeguminshortstory" playOrder="76">
+      <navLabel>
+        <text>Natsume’s blog: Untitled Megumin Short Story</text>
+      </navLabel>
+      <content src="untitledmeguminshortstory.xhtml"/>
+    </navPoint>
+    <navPoint id="untitleddarknessshortstory" playOrder="77">
+      <navLabel>
+        <text>Natsume’s blog: Untitled Darkness Short Story</text>
+      </navLabel>
+      <content src="untitleddarknessshortstory.xhtml"/>
+    </navPoint>
+    <navPoint id="untitledpartyshortstory" playOrder="78">
+      <navLabel>
+        <text>Natsume’s blog: Untitled Party Short Story</text>
+      </navLabel>
+      <content src="untitledpartyshortstory.xhtml"/>
+    </navPoint>
+    <navPoint id="shortstoryaboutmegumin" playOrder="79">
+      <navLabel>
+        <text>Short Story about Megumin whom I’m Thankful to</text>
+      </navLabel>
+      <content src="shortstoryaboutmegumin.xhtml"/>
+    </navPoint>
+    <navPoint id="shortstoryaboutdarkness" playOrder="80">
+      <navLabel>
+        <text>Darkness’s Short Story</text>
+      </navLabel>
+      <content src="shortstoryaboutdarkness.xhtml"/>
+    </navPoint>
+    <navPoint id="shortstoryaboutaqua" playOrder="81">
+      <navLabel>
+        <text>Goddess’s short story</text>
+      </navLabel>
+      <content src="shortstoryaboutaqua.xhtml"/>
+    </navPoint>
+  </navMap>
+</ncx>

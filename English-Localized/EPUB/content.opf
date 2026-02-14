@@ -1,0 +1,235 @@
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="id" version="3.0" prefix="calibre: https://calibre-ebook.com">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:title id="id-14">KonoSuba - Short Stories Collection (English Localization)</dc:title>
+    <dc:creator id="id-15">Natsume Akatsuki</dc:creator>
+    <dc:identifier>calibre:55</dc:identifier>
+    <dc:identifier>uuid:9f6cea41-6be5-4062-abd7-d4ed24fe3985</dc:identifier>
+    <dc:identifier id="id">konosuba-short-stories</dc:identifier>
+    <dc:language>en</dc:language>
+    <dc:contributor id="id-20">calibre (8.16.2) [https://calibre-ebook.com]</dc:contributor>
+    <dc:date>2026-02-07T06:00:00+00:00</dc:date>
+    <dc:description>A collection of Konosuba short stories translated by CGTranslations and yuNS. For personal reading use.</dc:description>
+    <dc:publisher>Yen On</dc:publisher>
+    <meta refines="#id-14" property="title-type">main</meta>
+    <meta refines="#id-14" property="file-as">KonoSuba - Short Stories Collection (English Localization)</meta>
+    <meta property="dcterms:modified">2026-02-13T22:29:59Z</meta>
+    <meta name="generator" content="Ebook-lib 0.20.0"/>
+    <meta name="cover" content="cover-img"/>
+    <meta property="calibre:timestamp" scheme="dcterms:W3CDTF">2026-02-07T20:47:25Z</meta>
+    <meta refines="#id-20" property="role" scheme="marc:relators">bkp</meta>
+    <meta refines="#id-15" property="role" scheme="marc:relators">aut</meta>
+    <meta refines="#id-15" property="file-as">Natsume Akatsuki</meta>
+    <meta property="belongs-to-collection" id="id-16">Kono Subarashii Sekai ni Shukufuku wo! Short Stories (English Localization)</meta>
+    <meta refines="#id-16" property="collection-type">series</meta>
+    <meta refines="#id-16" property="group-position">1</meta>
+  </metadata>
+  <manifest>
+    <item id="acertainchicksspecialmove" href="acertainchicksspecialmove.xhtml" media-type="application/xhtml+xml"/>
+    <item id="aheartfeltgift" href="aheartfeltgift.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ameetingwithawhitetiger-img" href="ameetingwithawhitetiger.jpeg" media-type="image/jpeg"/>
+    <item id="ameetingwithawhitetiger" href="ameetingwithawhitetiger.xhtml" media-type="application/xhtml+xml"/>
+    <item id="anightoutwiththewrongcrowd" href="anightoutwiththewrongcrowd.xhtml" media-type="application/xhtml+xml"/>
+    <item id="anoccasionalclichestory-img" href="anoccasionalclichestory.jpeg" media-type="image/jpeg"/>
+    <item id="anoccasionalclichestory" href="anoccasionalclichestory.xhtml" media-type="application/xhtml+xml"/>
+    <item id="aonceinawhileexplosivedate-img" href="aonceinawhileexplosivedate.jpeg" media-type="image/jpeg"/>
+    <item id="aonceinawhileexplosivedate" href="aonceinawhileexplosivedate.xhtml" media-type="application/xhtml+xml"/>
+    <item id="aonceinawhilegoddesslikeactivity" href="aonceinawhilegoddesslikeactivity.xhtml" media-type="application/xhtml+xml"/>
+    <item id="aquasensei" href="aquasensei.xhtml" media-type="application/xhtml+xml"/>
+    <item id="aquaswatertrade" href="aquaswatertrade.xhtml" media-type="application/xhtml+xml"/>
+    <item id="arealmagicitem" href="arealmagicitem.xhtml" media-type="application/xhtml+xml"/>
+    <item id="aseriousday" href="aseriousday.xhtml" media-type="application/xhtml+xml"/>
+    <item id="axelsnumberone" href="axelsnumberone.xhtml" media-type="application/xhtml+xml"/>
+    <item id="bewareofknockoffs-img" href="bewareofknockoffs.jpeg" media-type="image/jpeg"/>
+    <item id="bewareofknockoffs" href="bewareofknockoffs.xhtml" media-type="application/xhtml+xml"/>
+    <item id="copyright" href="copyright.xhtml" media-type="application/xhtml+xml"/>
+    <item id="cover-img" href="cover.jpeg" media-type="image/jpeg" properties="cover-image"/>
+    <item id="cover" href="cover.xhtml" media-type="application/xhtml+xml"/>
+    <item id="crimsoneyedrookiekiller-img" href="crimsoneyedrookiekiller.jpeg" media-type="image/jpeg"/>
+    <item id="crimsoneyedrookiekiller" href="crimsoneyedrookiekiller.xhtml" media-type="application/xhtml+xml"/>
+    <item id="crusaderofthesleepingforest" href="crusaderofthesleepingforest.xhtml" media-type="application/xhtml+xml"/>
+    <item id="darknessspetsearch" href="darknessspetsearch.xhtml" media-type="application/xhtml+xml"/>
+    <item id="dearoneechan-img" href="dearoneechan.jpeg" media-type="image/jpeg"/>
+    <item id="dearoneechan" href="dearoneechan.xhtml" media-type="application/xhtml+xml"/>
+    <item id="explosionisart-img" href="explosionisart.jpeg" media-type="image/jpeg"/>
+    <item id="explosionisart" href="explosionisart.xhtml" media-type="application/xhtml+xml"/>
+    <item id="explosivecrimsonstream-img" href="explosivecrimsonstream.jpg" media-type="image/jpeg"/>
+    <item id="explosivecrimsonstream" href="explosivecrimsonstream.xhtml" media-type="application/xhtml+xml"/>
+    <item id="foririssamassake" href="foririssamassake.xhtml" media-type="application/xhtml+xml"/>
+    <item id="hauntedhouse-img" href="hauntedhouse.jpeg" media-type="image/jpeg"/>
+    <item id="hauntedhouse" href="hauntedhouse.xhtml" media-type="application/xhtml+xml"/>
+    <item id="howtospendalonelyholiday-img" href="howtospendalonelyholiday.jpeg" media-type="image/jpeg"/>
+    <item id="howtospendalonelyholiday" href="howtospendalonelyholiday.xhtml" media-type="application/xhtml+xml"/>
+    <item id="komekkosugardaddy-img" href="komekkosugardaddy.jpeg" media-type="image/jpeg"/>
+    <item id="komekkosugardaddy" href="komekkosugardaddy.xhtml" media-type="application/xhtml+xml"/>
+    <item id="makeashowofgratitudeeverynowandthen" href="makeashowofgratitudeeverynowandthen.xhtml" media-type="application/xhtml+xml"/>
+    <item id="meguminthedragonslayer-img" href="meguminthedragonslayer.jpeg" media-type="image/jpeg"/>
+    <item id="meguminthedragonslayer" href="meguminthedragonslayer.xhtml" media-type="application/xhtml+xml"/>
+    <item id="megumintheripper-img" href="megumintheripper.jpeg" media-type="image/jpeg"/>
+    <item id="megumintheripper" href="megumintheripper.xhtml" media-type="application/xhtml+xml"/>
+    <item id="mynameis-img" href="mynameis.jpeg" media-type="image/jpeg"/>
+    <item id="mynameis" href="mynameis.xhtml" media-type="application/xhtml+xml"/>
+    <item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+    <item id="noblestyle" href="noblestyle.xhtml" media-type="application/xhtml+xml"/>
+    <item id="observingaqua-img" href="observingaqua.jpeg" media-type="image/jpeg"/>
+    <item id="observingaqua" href="observingaqua.xhtml" media-type="application/xhtml+xml"/>
+    <item id="observingdarkness-img" href="observingdarkness.jpeg" media-type="image/jpeg"/>
+    <item id="observingdarkness" href="observingdarkness.xhtml" media-type="application/xhtml+xml"/>
+    <item id="observingmegumin-img" href="observingmegumin.jpeg" media-type="image/jpeg"/>
+    <item id="observingmegumin" href="observingmegumin.xhtml" media-type="application/xhtml+xml"/>
+    <item id="onacertainmidsummersnight-img" href="onacertainmidsummersnight.jpeg" media-type="image/jpeg"/>
+    <item id="onacertainmidsummersnight" href="onacertainmidsummersnight.xhtml" media-type="application/xhtml+xml"/>
+    <item id="popularitypollaqua-img" href="popularitypollaqua.jpeg" media-type="image/jpeg"/>
+    <item id="popularitypollaqua" href="popularitypollaqua.xhtml" media-type="application/xhtml+xml"/>
+    <item id="popularitypolldarkness-img" href="popularitypolldarkness.jpeg" media-type="image/jpeg"/>
+    <item id="popularitypolldarkness" href="popularitypolldarkness.xhtml" media-type="application/xhtml+xml"/>
+    <item id="popularitypollmegumin-img" href="popularitypollmegumin.jpeg" media-type="image/jpeg"/>
+    <item id="popularitypollmegumin" href="popularitypollmegumin.xhtml" media-type="application/xhtml+xml"/>
+    <item id="regardingthedangersofthatskill" href="regardingthedangersofthatskill.xhtml" media-type="application/xhtml+xml"/>
+    <item id="regardingtheprincessadolescence" href="regardingtheprincessadolescence.xhtml" media-type="application/xhtml+xml"/>
+    <item id="shortstoryaboutaqua-img" href="shortstoryaboutaqua.jpeg" media-type="image/jpeg"/>
+    <item id="shortstoryaboutaqua" href="shortstoryaboutaqua.xhtml" media-type="application/xhtml+xml"/>
+    <item id="shortstoryaboutdarkness-img" href="shortstoryaboutdarkness.jpeg" media-type="image/jpeg"/>
+    <item id="shortstoryaboutdarkness" href="shortstoryaboutdarkness.xhtml" media-type="application/xhtml+xml"/>
+    <item id="shortstoryaboutmegumin-img" href="shortstoryaboutmegumin.jpeg" media-type="image/jpeg"/>
+    <item id="shortstoryaboutmegumin" href="shortstoryaboutmegumin.xhtml" media-type="application/xhtml+xml"/>
+    <item id="suchawaste" href="suchawaste.xhtml" media-type="application/xhtml+xml"/>
+    <item id="takingmyfirststeponpathtoexplosions-img" href="takingmyfirststeponpathtoexplosions.jpeg" media-type="image/jpeg"/>
+    <item id="takingmyfirststeponpathtoexplosions" href="takingmyfirststeponpathtoexplosions.xhtml" media-type="application/xhtml+xml"/>
+    <item id="taylorssecret-img" href="taylorssecret.jpeg" media-type="image/jpeg"/>
+    <item id="taylorssecret" href="taylorssecret.xhtml" media-type="application/xhtml+xml"/>
+    <item id="thebasicequipmenttotakedownademonking" href="thebasicequipmenttotakedownademonking.xhtml" media-type="application/xhtml+xml"/>
+    <item id="thecrimsonmagicclansmenhavehighintelligence" href="thecrimsonmagicclansmenhavehighintelligence.xhtml" media-type="application/xhtml+xml"/>
+    <item id="thedevilandtheforbiddenbook-img" href="thedevilandtheforbiddenbook.jpeg" media-type="image/jpeg"/>
+    <item id="thedevilandtheforbiddenbook" href="thedevilandtheforbiddenbook.xhtml" media-type="application/xhtml+xml"/>
+    <item id="thedivinehandoftheotherworld" href="thedivinehandoftheotherworld.xhtml" media-type="application/xhtml+xml"/>
+    <item id="theexplosivedetectiveofaxel-img" href="theexplosivedetectiveofaxel.jpeg" media-type="image/jpeg"/>
+    <item id="theexplosivedetectiveofaxel" href="theexplosivedetectiveofaxel.xhtml" media-type="application/xhtml+xml"/>
+    <item id="thefamousgoddessofaxel" href="thefamousgoddessofaxel.xhtml" media-type="application/xhtml+xml"/>
+    <item id="thegoddessworkinghard" href="thegoddessworkinghard.xhtml" media-type="application/xhtml+xml"/>
+    <item id="thehardworkingthiefgirl" href="thehardworkingthiefgirl.xhtml" media-type="application/xhtml+xml"/>
+    <item id="thehighlyrespectedcrimsondemons" href="thehighlyrespectedcrimsondemons.xhtml" media-type="application/xhtml+xml"/>
+    <item id="theinnocentlaughofaseedling" href="theinnocentlaughofaseedling.xhtml" media-type="application/xhtml+xml"/>
+    <item id="thelappillowofthefalseshopkeeper" href="thelappillowofthefalseshopkeeper.xhtml" media-type="application/xhtml+xml"/>
+    <item id="thelegendarywitch" href="thelegendarywitch.xhtml" media-type="application/xhtml+xml"/>
+    <item id="themilitantprincesspeacekeepingactivities" href="themilitantprincesspeacekeepingactivities.xhtml" media-type="application/xhtml+xml"/>
+    <item id="theonewithazurelightningbehindher" href="theonewithazurelightningbehindher.xhtml" media-type="application/xhtml+xml"/>
+    <item id="thepowerofthecrimsondemons-img" href="thepowerofthecrimsondemons.jpeg" media-type="image/jpeg"/>
+    <item id="thepowerofthecrimsondemons" href="thepowerofthecrimsondemons.xhtml" media-type="application/xhtml+xml"/>
+    <item id="thesameoldtownofaxel" href="thesameoldtownofaxel.xhtml" media-type="application/xhtml+xml"/>
+    <item id="thespringsceneryofthisotherworld-img" href="thespringsceneryofthisotherworld.jpeg" media-type="image/jpeg"/>
+    <item id="thespringsceneryofthisotherworld" href="thespringsceneryofthisotherworld.xhtml" media-type="application/xhtml+xml"/>
+    <item id="thestrongestdevilsummonerofthecrimsondemons" href="thestrongestdevilsummonerofthecrimsondemons.xhtml" media-type="application/xhtml+xml"/>
+    <item id="thestrongestskill" href="thestrongestskill.xhtml" media-type="application/xhtml+xml"/>
+    <item id="thetrueaspectofviolence" href="thetrueaspectofviolence.xhtml" media-type="application/xhtml+xml"/>
+    <item id="theunbelievablyluckysilverhairedthief-img" href="theunbelievablyluckysilverhairedthief.jpeg" media-type="image/jpeg"/>
+    <item id="theunbelievablyluckysilverhairedthief" href="theunbelievablyluckysilverhairedthief.xhtml" media-type="application/xhtml+xml"/>
+    <item id="theundeadrulerofthehoodassociation" href="theundeadrulerofthehoodassociation.xhtml" media-type="application/xhtml+xml"/>
+    <item id="thevalueofayounggirlis" href="thevalueofayounggirlis.xhtml" media-type="application/xhtml+xml"/>
+    <item id="thewintermoonis" href="thewintermoonis.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="todayasaharemconsultant" href="todayasaharemconsultant.xhtml" media-type="application/xhtml+xml"/>
+    <item id="todayasaloveconsultant" href="todayasaloveconsultant.xhtml" media-type="application/xhtml+xml"/>
+    <item id="todayiwinagain" href="todayiwinagain.xhtml" media-type="application/xhtml+xml"/>
+    <item id="torealizeamansromance" href="torealizeamansromance.xhtml" media-type="application/xhtml+xml"/>
+    <item id="translators" href="translators.xhtml" media-type="application/xhtml+xml"/>
+    <item id="untitledaquashortstory-img" href="untitledaquashortstory.jpeg" media-type="image/jpeg"/>
+    <item id="untitledaquashortstory" href="untitledaquashortstory.xhtml" media-type="application/xhtml+xml"/>
+    <item id="untitleddarknessshortstory-img" href="untitleddarknessshortstory.jpeg" media-type="image/jpeg"/>
+    <item id="untitleddarknessshortstory" href="untitleddarknessshortstory.xhtml" media-type="application/xhtml+xml"/>
+    <item id="untitledmeguminshortstory-img" href="untitledmeguminshortstory.jpeg" media-type="image/jpeg"/>
+    <item id="untitledmeguminshortstory" href="untitledmeguminshortstory.xhtml" media-type="application/xhtml+xml"/>
+    <item id="untitledpartyshortstory-img" href="untitledpartyshortstory.jpeg" media-type="image/jpeg"/>
+    <item id="untitledpartyshortstory" href="untitledpartyshortstory.xhtml" media-type="application/xhtml+xml"/>
+    <item id="vs-img" href="vs.jpeg" media-type="image/jpeg"/>
+    <item id="vs" href="vs.xhtml" media-type="application/xhtml+xml"/>
+    <item id="whenthatgoddessreturns" href="whenthatgoddessreturns.xhtml" media-type="application/xhtml+xml"/>
+    <item id="workingattthemagicitemshop-img" href="workingattthemagicitemshop.jpeg" media-type="image/jpeg"/>
+    <item id="workingattthemagicitemshop" href="workingattthemagicitemshop.xhtml" media-type="application/xhtml+xml"/>
+    <item id="workingattthesuccubusshop-img" href="workingattthesuccubusshop.jpeg" media-type="image/jpeg"/>
+    <item id="workingattthesuccubusshop" href="workingattthesuccubusshop.xhtml" media-type="application/xhtml+xml"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="nav"/>
+    <itemref idref="copyright"/>
+    <itemref idref="translators"/>
+    <itemref idref="aquasensei"/>
+    <itemref idref="meguminthedragonslayer"/>
+    <itemref idref="aquaswatertrade"/>
+    <itemref idref="darknessspetsearch"/>
+    <itemref idref="thecrimsonmagicclansmenhavehighintelligence"/>
+    <itemref idref="megumintheripper"/>
+    <itemref idref="crusaderofthesleepingforest"/>
+    <itemref idref="explosionisart"/>
+    <itemref idref="aonceinawhilegoddesslikeactivity"/>
+    <itemref idref="theundeadrulerofthehoodassociation"/>
+    <itemref idref="crimsoneyedrookiekiller"/>
+    <itemref idref="aonceinawhileexplosivedate"/>
+    <itemref idref="takingmyfirststeponpathtoexplosions"/>
+    <itemref idref="komekkosugardaddy"/>
+    <itemref idref="howtospendalonelyholiday"/>
+    <itemref idref="thehighlyrespectedcrimsondemons"/>
+    <itemref idref="dearoneechan"/>
+    <itemref idref="observingaqua"/>
+    <itemref idref="observingmegumin"/>
+    <itemref idref="observingdarkness"/>
+    <itemref idref="thedevilandtheforbiddenbook"/>
+    <itemref idref="makeashowofgratitudeeverynowandthen"/>
+    <itemref idref="torealizeamansromance"/>
+    <itemref idref="vs"/>
+    <itemref idref="taylorssecret"/>
+    <itemref idref="acertainchicksspecialmove"/>
+    <itemref idref="anoccasionalclichestory"/>
+    <itemref idref="thepowerofthecrimsondemons"/>
+    <itemref idref="aseriousday"/>
+    <itemref idref="thegoddessworkinghard"/>
+    <itemref idref="regardingtheprincessadolescence"/>
+    <itemref idref="axelsnumberone"/>
+    <itemref idref="hauntedhouse"/>
+    <itemref idref="suchawaste"/>
+    <itemref idref="thehardworkingthiefgirl"/>
+    <itemref idref="themilitantprincesspeacekeepingactivities"/>
+    <itemref idref="thevalueofayounggirlis"/>
+    <itemref idref="foririssamassake"/>
+    <itemref idref="thestrongestskill"/>
+    <itemref idref="regardingthedangersofthatskill"/>
+    <itemref idref="thelegendarywitch"/>
+    <itemref idref="thetrueaspectofviolence"/>
+    <itemref idref="onacertainmidsummersnight"/>
+    <itemref idref="theunbelievablyluckysilverhairedthief"/>
+    <itemref idref="arealmagicitem"/>
+    <itemref idref="thewintermoonis"/>
+    <itemref idref="thelappillowofthefalseshopkeeper"/>
+    <itemref idref="theinnocentlaughofaseedling"/>
+    <itemref idref="thestrongestdevilsummonerofthecrimsondemons"/>
+    <itemref idref="theonewithazurelightningbehindher"/>
+    <itemref idref="workingattthesuccubusshop"/>
+    <itemref idref="workingattthemagicitemshop"/>
+    <itemref idref="noblestyle"/>
+    <itemref idref="thebasicequipmenttotakedownademonking"/>
+    <itemref idref="aheartfeltgift"/>
+    <itemref idref="thefamousgoddessofaxel"/>
+    <itemref idref="whenthatgoddessreturns"/>
+    <itemref idref="todayiwinagain"/>
+    <itemref idref="anightoutwiththewrongcrowd"/>
+    <itemref idref="thesameoldtownofaxel"/>
+    <itemref idref="thedivinehandoftheotherworld"/>
+    <itemref idref="mynameis"/>
+    <itemref idref="todayasaharemconsultant"/>
+    <itemref idref="todayasaloveconsultant"/>
+    <itemref idref="ameetingwithawhitetiger"/>
+    <itemref idref="theexplosivedetectiveofaxel"/>
+    <itemref idref="explosivecrimsonstream"/>
+    <itemref idref="bewareofknockoffs"/>
+    <itemref idref="thespringsceneryofthisotherworld"/>
+    <itemref idref="popularitypollaqua"/>
+    <itemref idref="popularitypollmegumin"/>
+    <itemref idref="popularitypolldarkness"/>
+    <itemref idref="untitledaquashortstory"/>
+    <itemref idref="untitledmeguminshortstory"/>
+    <itemref idref="untitleddarknessshortstory"/>
+    <itemref idref="untitledpartyshortstory"/>
+    <itemref idref="shortstoryaboutmegumin"/>
+    <itemref idref="shortstoryaboutdarkness"/>
+    <itemref idref="shortstoryaboutaqua"/>
+  </spine>
+</package>
