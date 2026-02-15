@@ -67,8 +67,8 @@ The exact packaging workflow is handled by the scripts in `tools/`. Typical usag
 1. Ensure the story XHTML files are valid and consistent.
 2. Ensure `content.opf`, `nav.xhtml`, and `toc.ncx` match the current story titles/headings.
 3. Package the directory structure into an `.epub`.
-  - `python3 tools/package_epub.py --src Unchanged-Translations --out dist/Unchanged-Translations.epub`
-  - `python3 tools/package_epub.py --src English-Localized --out dist/English-Localized.epub`
+  - `python3 tools/package_epub.py --src Unchanged-Translations --out dist/Unchanged-Translations.epub --version v1.2.3`
+  - `python3 tools/package_epub.py --src English-Localized --out dist/English-Localized.epub --version v1.2.3`
 
 If you’re working from scratch in a new environment, you’ll need Python (and the repository’s Python dependencies) to run the tooling.
 

@@ -34,11 +34,11 @@ jobs:
 
       - name: Build English-Localized EPUB
         if: steps.semantic.outputs.new_release_published == 'true'
-        run: python tools/package_epub.py --src English-Localized --out "dist/KonoSuba-Short-Stories-Collection-English-Localization-${{ steps.semantic.outputs.new_release_git_tag }}.epub"
+        run: python tools/package_epub.py --version ${{ steps.semantic.outputs.new_release_git_tag }} --src English-Localized --out "dist/KonoSuba-Short-Stories-Collection-English-Localization-${{ steps.semantic.outputs.new_release_git_tag }}.epub"
 
       - name: Build Unchanged-Translations EPUB
         if: steps.semantic.outputs.new_release_published == 'true'
-        run: python tools/package_epub.py --src Unchanged-Translations --out "dist/KonoSuba-Short-Stories-Collection-${{ steps.semantic.outputs.new_release_git_tag }}.epub"
+        run: python tools/package_epub.py --version ${{ steps.semantic.outputs.new_release_git_tag }} --src Unchanged-Translations --out "dist/KonoSuba-Short-Stories-Collection-${{ steps.semantic.outputs.new_release_git_tag }}.epub"
 
       - name: Upload EPUBs to GitHub Release
         if: steps.semantic.outputs.new_release_published == 'true'
