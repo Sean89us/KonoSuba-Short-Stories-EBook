@@ -10,9 +10,12 @@ Design goals:
 - Preserve existing <metadata> from content.opf (only updates dcterms:modified).
 - Preserve existing spine order from content.opf.
 - Rebuild manifest from actual files on disk.
-- Rebuild nav.xhtml and toc.ncx labels from each XHTML's <h1> (fallback: <title>, fallback: filename).
+- Regenerate toc.ncx to match the current nav.xhtml TOC link order.
 
-This is intentionally conservative: it does not rename files or reorder spine.
+Notes:
+- Many readers use nav.xhtml (EPUB3) and some still rely on toc.ncx (NCX).
+- This script treats nav.xhtml as the source of truth for TOC ordering by default,
+  so it won't overwrite a hand/grouped/generated nav.xhtml unless requested.
 """
 
 from __future__ import annotations
@@ -47,6 +50,10 @@ class TocEntry:
     idref: str
     href: str
     title: str
+
+
+def _itertext(el: etree._Element) -> str:
+    return _collapse_ws("".join(el.itertext()))
 
 
 def _utc_timestamp() -> str:
@@ -273,6 +280,117 @@ def _build_toc_entries(epub_dir: Path, opf_tree: etree._ElementTree, spine_idref
     return entries
 
 
+def _extract_nav_toc_links(nav_path: Path) -> list[tuple[str, str]]:
+    """Return (href, label) tuples in the same document order as nav.xhtml.
+
+    We only read anchors inside the <nav epub:type="toc"> element.
+    Group headings (<span>) are ignored.
+    """
+
+    tree = _read_xml(nav_path)
+    root = tree.getroot()
+
+    nav_el = root.find(".//xhtml:nav[@epub:type='toc']", namespaces=NS)
+    if nav_el is None:
+        nav_el = root.find(".//xhtml:nav", namespaces=NS)
+    if nav_el is None:
+        raise RuntimeError(f"Missing <nav> in {nav_path}")
+
+    links: list[tuple[str, str]] = []
+    for a in nav_el.findall(".//xhtml:a", namespaces=NS):
+        href = a.get("href")
+        if not href:
+            continue
+        label = _itertext(a)
+        links.append((href, label))
+
+    return links
+
+
+def _build_toc_entries_from_nav(epub_dir: Path, nav_path: Path) -> list[TocEntry]:
+    links = _extract_nav_toc_links(nav_path)
+    entries: list[TocEntry] = []
+
+    used_ids: set[str] = set()
+
+    for href, label in links:
+        # Prefer using our stable id convention.
+        idref = _manifest_id_for(Path(href))
+        base = idref
+        i = 2
+        while idref in used_ids:
+            idref = f"{base}-{i}"
+            i += 1
+        used_ids.add(idref)
+
+        title = label
+        if not title and href.endswith(".xhtml") and (epub_dir / href).exists():
+            title = _extract_xhtml_title(epub_dir / href)
+        if not title:
+            title = Path(href).stem
+
+        entries.append(TocEntry(idref=idref, href=href, title=title))
+
+    return entries
+
+
+def _reorder_spine_idrefs_from_nav(
+    opf_tree: etree._ElementTree, spine_idrefs: list[str], nav_path: Path
+) -> list[str]:
+    """Reorder spine itemrefs to match nav.xhtml TOC link order.
+
+    EPUBCheck warns if the nav TOC isn't in reading order (spine order). One way
+    to satisfy this while keeping a grouped nav is to reorder the spine to match
+    the nav link order.
+
+    Any spine items that are not present in the nav TOC are preserved at the
+    beginning in their original order.
+    """
+
+    manifest_items = {
+        el.get("id"): el.get("href")
+        for el in opf_tree.findall(".//opf:manifest/opf:item", namespaces=NS)
+        if el.get("id") and el.get("href")
+    }
+    href_to_idref = {href: item_id for item_id, href in manifest_items.items()}
+
+    nav_links = _extract_nav_toc_links(nav_path)
+
+    nav_idrefs: list[str] = []
+    for href, _label in nav_links:
+        idref = href_to_idref.get(href)
+        if not idref:
+            # Fallback: derive from filename conventions.
+            idref = _manifest_id_for(Path(href))
+        if idref in spine_idrefs:
+            nav_idrefs.append(idref)
+
+    # De-dupe while preserving nav order
+    seen: set[str] = set()
+    nav_idrefs_deduped: list[str] = []
+    for idref in nav_idrefs:
+        if idref in seen:
+            continue
+        seen.add(idref)
+        nav_idrefs_deduped.append(idref)
+
+    nav_set = set(nav_idrefs_deduped)
+    fixed_prefix = [idref for idref in spine_idrefs if idref not in nav_set]
+
+    # Combine, ensuring we keep exactly the original spine items once.
+    out: list[str] = []
+    out_seen: set[str] = set()
+    for idref in fixed_prefix + nav_idrefs_deduped:
+        if idref in out_seen:
+            continue
+        if idref not in spine_idrefs:
+            continue
+        out_seen.add(idref)
+        out.append(idref)
+
+    return out
+
+
 def _write_nav_xhtml(epub_dir: Path, book_title: str, entries: list[TocEntry]) -> None:
     nsmap = {None: XHTML_NS, "epub": EPUB_NS}
     html = etree.Element(f"{{{XHTML_NS}}}html", nsmap=nsmap)
@@ -352,6 +470,23 @@ def _write_toc_ncx(epub_dir: Path, uid: str, book_title: str, entries: list[TocE
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--epub-dir", default="English-Localized/EPUB")
+    ap.add_argument(
+        "--rewrite-nav-from-spine",
+        action="store_true",
+        help="Rewrite nav.xhtml from spine order (will discard existing grouping).",
+    )
+    ap.add_argument(
+        "--spine-from",
+        choices=["preserve", "nav"],
+        default="preserve",
+        help="Whether to preserve existing spine order or reorder the spine to match nav.xhtml TOC link order (default: preserve).",
+    )
+    ap.add_argument(
+        "--toc-from",
+        choices=["nav", "spine"],
+        default="nav",
+        help="Source of truth for toc.ncx ordering (default: nav).",
+    )
     args = ap.parse_args()
 
     epub_dir = Path(args.epub_dir)
@@ -365,15 +500,35 @@ def main() -> int:
     book_title = _extract_book_title(opf_tree)
     uid = _extract_uid(opf_tree)
 
-    # Build TOC entries from original spine order (excluding nav/cover).
-    entries = _build_toc_entries(epub_dir, opf_tree, spine_idrefs)
+    nav_path = epub_dir / "nav.xhtml"
 
-    # Write files
+    if args.spine_from == "nav":
+        if not nav_path.exists():
+            raise SystemExit(f"Missing {nav_path} (required for --spine-from nav)")
+        spine_idrefs = _reorder_spine_idrefs_from_nav(opf_tree, spine_idrefs, nav_path)
+
+    # Always update OPF (manifest + modified timestamp).
     _write_content_opf(epub_dir, opf_tree, spine_idrefs)
-    _write_nav_xhtml(epub_dir, book_title, entries)
+
+    if args.rewrite_nav_from_spine:
+        # Build entries from spine order and regenerate nav.xhtml.
+        spine_entries = _build_toc_entries(epub_dir, opf_tree, spine_idrefs)
+        _write_nav_xhtml(epub_dir, book_title, spine_entries)
+
+    # Build toc.ncx entries.
+    if args.toc_from == "spine":
+        entries = _build_toc_entries(epub_dir, opf_tree, spine_idrefs)
+    else:
+        if not nav_path.exists():
+            raise SystemExit(f"Missing {nav_path} (required for --toc-from nav)")
+        entries = _build_toc_entries_from_nav(epub_dir, nav_path)
+
     _write_toc_ncx(epub_dir, uid, book_title, entries)
 
-    print(f"wrote content.opf, nav.xhtml, toc.ncx in {epub_dir}")
+    wrote_nav = "yes" if args.rewrite_nav_from_spine else "no"
+    print(
+        f"wrote content.opf, toc.ncx in {epub_dir} (nav_rewritten={wrote_nav}, toc_from={args.toc_from}, spine_from={args.spine_from})"
+    )
     print(f"toc_entries {len(entries)}")
     return 0
 

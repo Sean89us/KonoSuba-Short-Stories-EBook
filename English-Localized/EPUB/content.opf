@@ -12,7 +12,7 @@
     <dc:publisher>Yen On</dc:publisher>
     <meta refines="#id-14" property="title-type">main</meta>
     <meta refines="#id-14" property="file-as">KonoSuba - Short Stories Collection (English Localization)</meta>
-    <meta property="dcterms:modified">2026-02-13T22:29:59Z</meta>
+    <meta property="dcterms:modified">2026-02-18T02:40:37Z</meta>
     <meta name="generator" content="Ebook-lib 0.20.0"/>
     <meta name="cover" content="cover-img"/>
     <meta property="calibre:timestamp" scheme="dcterms:W3CDTF">2026-02-07T20:47:25Z</meta>
@@ -163,32 +163,24 @@
     <itemref idref="aonceinawhilegoddesslikeactivity"/>
     <itemref idref="theundeadrulerofthehoodassociation"/>
     <itemref idref="crimsoneyedrookiekiller"/>
+    <itemref idref="ameetingwithawhitetiger"/>
+    <itemref idref="theexplosivedetectiveofaxel"/>
+    <itemref idref="explosivecrimsonstream"/>
+    <itemref idref="bewareofknockoffs"/>
+    <itemref idref="untitledaquashortstory"/>
+    <itemref idref="untitledmeguminshortstory"/>
+    <itemref idref="untitleddarknessshortstory"/>
+    <itemref idref="untitledpartyshortstory"/>
     <itemref idref="aonceinawhileexplosivedate"/>
-    <itemref idref="takingmyfirststeponpathtoexplosions"/>
-    <itemref idref="komekkosugardaddy"/>
-    <itemref idref="howtospendalonelyholiday"/>
-    <itemref idref="thehighlyrespectedcrimsondemons"/>
-    <itemref idref="dearoneechan"/>
-    <itemref idref="observingaqua"/>
-    <itemref idref="observingmegumin"/>
-    <itemref idref="observingdarkness"/>
     <itemref idref="thedevilandtheforbiddenbook"/>
     <itemref idref="makeashowofgratitudeeverynowandthen"/>
     <itemref idref="torealizeamansromance"/>
-    <itemref idref="vs"/>
-    <itemref idref="taylorssecret"/>
     <itemref idref="acertainchicksspecialmove"/>
     <itemref idref="anoccasionalclichestory"/>
     <itemref idref="thepowerofthecrimsondemons"/>
-    <itemref idref="aseriousday"/>
     <itemref idref="thegoddessworkinghard"/>
     <itemref idref="regardingtheprincessadolescence"/>
     <itemref idref="axelsnumberone"/>
-    <itemref idref="hauntedhouse"/>
-    <itemref idref="suchawaste"/>
-    <itemref idref="thehardworkingthiefgirl"/>
-    <itemref idref="themilitantprincesspeacekeepingactivities"/>
-    <itemref idref="thevalueofayounggirlis"/>
     <itemref idref="foririssamassake"/>
     <itemref idref="thestrongestskill"/>
     <itemref idref="regardingthedangersofthatskill"/>
@@ -202,8 +194,6 @@
     <itemref idref="theinnocentlaughofaseedling"/>
     <itemref idref="thestrongestdevilsummonerofthecrimsondemons"/>
     <itemref idref="theonewithazurelightningbehindher"/>
-    <itemref idref="workingattthesuccubusshop"/>
-    <itemref idref="workingattthemagicitemshop"/>
     <itemref idref="noblestyle"/>
     <itemref idref="thebasicequipmenttotakedownademonking"/>
     <itemref idref="aheartfeltgift"/>
@@ -212,24 +202,34 @@
     <itemref idref="todayiwinagain"/>
     <itemref idref="anightoutwiththewrongcrowd"/>
     <itemref idref="thesameoldtownofaxel"/>
+    <itemref idref="shortstoryaboutmegumin"/>
+    <itemref idref="shortstoryaboutdarkness"/>
+    <itemref idref="shortstoryaboutaqua"/>
+    <itemref idref="takingmyfirststeponpathtoexplosions"/>
+    <itemref idref="komekkosugardaddy"/>
+    <itemref idref="howtospendalonelyholiday"/>
+    <itemref idref="thehighlyrespectedcrimsondemons"/>
+    <itemref idref="dearoneechan"/>
+    <itemref idref="thehardworkingthiefgirl"/>
+    <itemref idref="themilitantprincesspeacekeepingactivities"/>
+    <itemref idref="thevalueofayounggirlis"/>
+    <itemref idref="observingaqua"/>
+    <itemref idref="observingmegumin"/>
+    <itemref idref="observingdarkness"/>
+    <itemref idref="taylorssecret"/>
+    <itemref idref="aseriousday"/>
+    <itemref idref="hauntedhouse"/>
+    <itemref idref="suchawaste"/>
+    <itemref idref="workingattthesuccubusshop"/>
+    <itemref idref="workingattthemagicitemshop"/>
     <itemref idref="thedivinehandoftheotherworld"/>
     <itemref idref="mynameis"/>
-    <itemref idref="todayasaharemconsultant"/>
-    <itemref idref="todayasaloveconsultant"/>
-    <itemref idref="ameetingwithawhitetiger"/>
-    <itemref idref="theexplosivedetectiveofaxel"/>
-    <itemref idref="explosivecrimsonstream"/>
-    <itemref idref="bewareofknockoffs"/>
     <itemref idref="thespringsceneryofthisotherworld"/>
     <itemref idref="popularitypollaqua"/>
     <itemref idref="popularitypollmegumin"/>
     <itemref idref="popularitypolldarkness"/>
-    <itemref idref="untitledaquashortstory"/>
-    <itemref idref="untitledmeguminshortstory"/>
-    <itemref idref="untitleddarknessshortstory"/>
-    <itemref idref="untitledpartyshortstory"/>
-    <itemref idref="shortstoryaboutmegumin"/>
-    <itemref idref="shortstoryaboutdarkness"/>
-    <itemref idref="shortstoryaboutaqua"/>
+    <itemref idref="vs"/>
+    <itemref idref="todayasaharemconsultant"/>
+    <itemref idref="todayasaloveconsultant"/>
   </spine>
 </package>
