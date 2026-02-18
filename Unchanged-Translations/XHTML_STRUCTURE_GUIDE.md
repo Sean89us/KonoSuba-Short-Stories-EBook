@@ -85,7 +85,7 @@ Immediately under the `<h1>`, use `<p>` lines for metadata.
 Within the story body (after the first `<hr/>`):
 
 - Use `<p>` for normal paragraphs and dialogue lines.
-- Use `<p><strong>Part N</strong></p>` when the story is explicitly split into parts (common in Blu-ray shorts).
+- Use `<p><strong>Part N</strong></p>` when the story is explicitly split into parts (common in Blu-Ray shorts).
 - Images (when present) should be block-level and XHTML-safe. Canonical pattern:
 
 ```xml

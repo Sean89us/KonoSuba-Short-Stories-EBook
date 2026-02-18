@@ -408,7 +408,7 @@
     </navPoint>
     <navPoint id="ameetingwithawhitetiger" playOrder="67">
       <navLabel>
-        <text>Blu-ray Short Story 1: A Meeting with a White Tiger</text>
+        <text>Blu-Ray Short Story 1: A Meeting with a White Tiger</text>
       </navLabel>
       <content src="ameetingwithawhitetiger.xhtml"/>
     </navPoint>

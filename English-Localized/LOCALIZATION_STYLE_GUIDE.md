@@ -115,6 +115,7 @@ Mini glossary (common normalizations):
 - `Giant Frog` → `Giant Toad` (In western KonoSuba media, the creatures known as Giant Frogs have been changed to Giant Toads instead) (This also applies to their meat, e.g. `frog meat` -> `toad meat`)
 - `Axis Church` / `Eris Church` (title case for the organization name)
 - `subjugation quest` → `kill quest`
+- `newbie killer` → `rookie killer` (a rookie killer is a type of monster, sometimes in translations it will be written as `newbie killer`)
 
 What not to change:
 
