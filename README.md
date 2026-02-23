@@ -40,14 +40,7 @@ If you want to chat with me directly, you can find me on Discord [@sean92us](htt
 
 Download copies of the published epub files over on the [releases page](https://github.com/Sean89us/KonoSuba-Short-Stories-EBook/releases).
 
-Releases should be cut when tags are pushed. This should generate the epub files and attach them to the release.
-
-## Weekend Project Background
-
-This was a weekend project for me with two goals:
-
-1. **Collect all known KonoSuba short stories in one place** and publish them as a single ebook that’s easy to read on E-Readers / tablets.
-2. **Expand my knowledge of using AI tooling for practical purposes**, especially around automation and “mechanical” editing tasks (XHTML consistency, typography normalization, metadata consistency, and EPUB navigation generation).
+Releases are cut using Semantic Release, and github actions takes care of packaging the epub file and attaching it to the releases.
 
 ## Repository Layout
 
@@ -87,11 +80,30 @@ epubcheck dist/English-Localized.epub
 
 ## Contributing
 
-Contributions are welcome, especially new short stories or fixes that keep the collection consistent and EPUB-valid.
+Contributions are welcome, especially new short stories or fixes that keep the collection consistent and up-to-date.
 
-### Adding a new story
+### Adding a new story (Python / Manual version)
 
-The process for adding a new story is intentionally simple:
+1. Use the `tools/pull_story_from_web.py` script to pull the short story from the web into an xhtml file
+   - `python3 ./tools/pull_story_from_web.py https://crimsonmagic.me/2017/04/23/announcement-konosuba-in-the-life-translation-project-completed-short-story-aqua-sensei/`
+2. Manually fix any issues with the story that was imported (e.g. incorrect title, unnecessary lines, etc)
+3. Add "occurrence" block under "editors"
+4. Scan the directory using proofread script
+   ```
+   python3 tools/epub_proofread.py --epub-dir Unchanged-Translations/EPUB/ --out proofread_report.md
+   ```
+5. Correct any identified issues to the file you created (imbalanced quotes, etc)
+6. For the localized english version, ask your AI assistant of choice to follow the localization style guide and xhtml structure guide in the `English-Localized` folder to create a localized version. (GPT-5.2 was used for most of the other stories so maybe use that for consistency)
+
+```text
+Example AI Prompt:
+
+Follow the Style Guide and XHTML Structure guide located in `English-Localized` to create a localized English version of the story `Unchanged-Translations/EPUB/somestory.xhtml` in the `English-Localized/EPUB` folder. Once the story file exists, ensure that it is added to the index and metadata files (content.opf`, `nav.xhtml`, and `toc.ncx`) after the story "Aqua Sensei".
+```
+
+### Adding a new story (AI version)
+
+The process for adding a new story using an AI coding assistant is simple:
 
 1. Pick the track you’re contributing to:
    - `Unchanged-Translations/EPUB/` for baseline/unchanged wording.

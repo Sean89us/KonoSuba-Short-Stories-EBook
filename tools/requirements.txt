@@ -1,0 +1,14 @@
+# Requirements for running the scripts in tools/
+#
+# Install:
+#   python3 -m pip install -r requirements.txt
+
+# XHTML/XML parsing + rewriting (used by multiple tools)
+lxml>=4.9
+
+# Web fetching + HTML parsing (used by tools/pull_story_from_web.py)
+requests>=2.31
+beautifulsoup4>=4.12
+
+# Optional: only needed if you use tools/epub_proofread.py with --lt-fix
+language-tool-python>=2.7
